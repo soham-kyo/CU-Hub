@@ -1,0 +1,70 @@
+name: Update README Tree
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+
+jobs:
+  update-tree:
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate repository tree
+        run: |
+          TREE=$(find . -maxdepth 4 \
+            -not -path './.git*' \
+            -not -path './.github*' \
+            -not -path '*/__pycache__*' \
+            -not -path '*/.vscode*' \
+            -not -path '*/.idea*' \
+            | sort \
+            | sed 's|^\./||' \
+            | sed 's|[^/]*/|  |g')
+
+          export TREE
+
+          awk '
+            /<!--START_TREE-->/ {
+              print
+              print "```text"
+              print ENVIRON["TREE"]
+              print "```"
+              inside=1
+              next
+            }
+
+            /<!--END_TREE-->/ {
+              inside=0
+              print
+              next
+            }
+
+            !inside {
+              print
+            }
+          ' README.md > README.tmp
+
+          mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --staged --quiet; then
+            echo "No README changes."
+          else
+            git commit -m "chore: update repository tree"
+            git push
+          fi

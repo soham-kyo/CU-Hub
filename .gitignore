@@ -1,0 +1,226 @@
+# ============================================================
+# CU-Hub — Chandigarh University University Work
+# Global .gitignore
+# ============================================================
+
+
+# ============================================================
+# VS CODE
+# ============================================================
+
+.vscode/
+*.code-workspace
+
+
+# ============================================================
+# JETBRAINS / INTELLIJ
+# ============================================================
+
+.idea/
+*.iml
+
+
+# ============================================================
+# PYTHON
+# ============================================================
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Python build / packaging
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing / linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+
+# ============================================================
+# C / C++
+# ============================================================
+
+# Object / compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+
+# macOS debug symbols
+*.dSYM/
+**/*.dSYM/
+
+# CMake / build output
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Build folders
+bin/
+obj/
+
+
+# ============================================================
+# JAVA
+# ============================================================
+
+*.class
+*.jar
+target/
+out/
+
+
+# ============================================================
+# WEB DEVELOPMENT / JAVASCRIPT
+# ============================================================
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Framework build output
+.next/
+.nuxt/
+.svelte-kit/
+
+# Build output
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ============================================================
+# MACHINE LEARNING / DATA SCIENCE
+# ============================================================
+
+# Trained models / generated model files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+
+# Experiment output
+checkpoints/
+**/checkpoints/
+runs/
+**/runs/
+wandb/
+**/wandb/
+
+# Large generated datasets
+*.parquet
+*.feather
+
+
+# ============================================================
+# ORACLE / SQL / DATABASE
+# ============================================================
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.dbf
+*.dmp
+
+# Oracle / database logs and temporary files
+*.trc
+*.tmp
+
+# IMPORTANT:
+# .sql files are NOT ignored.
+# They are university source code and should be committed.
+
+
+# ============================================================
+# OPERATING SYSTEM FILES
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+
+# ============================================================
+# EDITORS / TEMPORARY FILES
+# ============================================================
+
+# Vim
+*.swp
+*.swo
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Temporary / backup files
+*.temp
+*.bak
+*.backup
+*.orig
+
+
+# ============================================================
+# LOGS
+# ============================================================
+
+*.log
+logs/
+**/logs/
