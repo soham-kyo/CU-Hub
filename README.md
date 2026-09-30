@@ -55,6 +55,23 @@ and source code from my engineering journey at **Chandigarh University**.
 <!--START_TREE-->
 ```text
 .
+DBMS
+  01.1_create_tables.sql
+  01.2_constraints.sql
+  02.1_insert_retrieve_update_delete.sql
+  02.2_selection_projection_natural_join.sql
+  03.1_rename_self_join_division.sql
+  03.2_union_intersection_difference_aggregate.sql
+  04.1_nested_subqueries_aggregate_functions.sql
+  04.2_inner_outer_joins.sql
+  05_full_outer_join_multi_table_join.sql
+  06_multi_table_left_join_self_join.sql
+  07.1_views_sequences_indexes.sql
+  07.2_execution_plans_plsql_student_count.sql
+  08_if_else_loop_cursor.sql
+  09.1_triggers_procedures_functions.sql
+  09.2_procedure_function_execution_transactions.sql
+  10_execution_plans_index_performance_acid.sql
 DSA in C
   UNIT 1
     01.1_2d_array_operations.c
@@ -67,55 +84,64 @@ DSA in C
 LICENSE
 Python Programming
   UNIT 1
-    01.1_arithmetic_operations.py
-    01.1_data_types_type_conversion.py
-    01.1_hello_world.py
-    01.1_relational_logical_operators.py
-    01.2_area_of_shapes.py
-    01.2_simple_compound_interest.py
-    01.2_swap_variables.py
-    01.2_temperature_conversion.py
-    01.3_even_odd.py
-    01.3_grade_calculator.py
-    01.3_largest_of_three.py
-    01.3_leap_year.py
+    01.1_1_hello_world.py
+    01.1_2_data_types_type_conversion.py
+    01.1_3_arithmetic_operations.py
+    01.1_4_relational_logical_operators.py
+    01.2_1_simple_compound_interest.py
+    01.2_2_swap_variables.py
+    01.2_3_area_of_shapes.py
+    01.2_4_temperature_conversion.py
+    01.3_1_even_odd.py
+    01.3_2_largest_of_three.py
+    01.3_3_grade_calculator.py
+    01.3_4_leap_year.py
   UNIT 2
-    02.1_multiplication_table.py
-    02.1_print_numbers_1_to_10.py
-    02.1_simple_calculator.py
-    02.1_sum_of_first_n_natural_numbers.py
-    02.2_factorial.py
-    02.2_prime_number.py
-    02.2_reverse_and_palindrome.py
-    02.2_sum_of_digits.py
-    02.3_armstrong_numbers.py
-    02.3_break_continue_pass.py
-    02.3_fibonacci_series.py
+    02.1_1_simple_calculator.py
+    02.1_2_print_numbers_1_to_10.py
+    02.1_3_sum_of_first_n_natural_numbers.py
+    02.1_4_multiplication_table.py
+    02.2_1_prime_number.py
+    02.2_2_factorial.py
+    02.2_3_reverse_and_palindrome.py
+    02.2_4_sum_of_digits.py
+    02.3_1_fibonacci_series.py
+    02.3_2_armstrong_numbers.py
+    02.3_3_break_continue_pass.py
   UNIT 3
-    03.1_builtin_functions.py
-    03.1_exception_handling.py
-    03.1_user_defined_functions.py
-    03.2_age_validation_exception.py
-    03.2_recursive_factorial.py
-    03.2_recursive_fibonacci.py
-    03.3_append_to_file.py
-    03.3_file_statistics.py
-    03.3_read_text_file.py
-    03.3_write_text_file.py
+    03.1_1_builtin_functions.py
+    03.1_2_user_defined_functions.py
+    03.1_3_exception_handling.py
+    03.2_1_recursive_factorial.py
+    03.2_2_recursive_fibonacci.py
+    03.2_3_age_validation_exception.py
+    03.3_1_write_text_file.py
+    03.3_2_read_text_file.py
+    03.3_3_file_statistics.py
+    03.3_4_append_to_file.py
   UNIT 4
-    04.1_character_count.py
-    04.1_string_length_traversal.py
-    04.1_string_methods.py
-    04.1_string_operations.py
-    04.1_string_palindrome.py
-    04.2_list_operations.py
-    04.2_list_statistics.py
-    04.2_read_csv_file.py
-    04.2_word_frequency_dictionary.py
-    04.3_list_slicing_comprehension.py
-    04.3_list_sorting.py
-    04.3_matrix_operations.py
-    04.3_tuple_operations.py
+    04.1_1_string_operations.py
+    04.1_2_string_length_traversal.py
+    04.1_3_string_palindrome.py
+    04.1_4_character_count.py
+    04.1_5_string_methods.py
+    04.2_1_read_csv_file.py
+    04.2_2_list_operations.py
+    04.2_3_list_statistics.py
+    04.2_4_word_frequency_dictionary.py
+    04.3_1_list_slicing_comprehension.py
+    04.3_2_list_sorting.py
+    04.3_3_matrix_operations.py
+    04.3_4_tuple_operations.py
+  UNIT 5
+    05.1_1_dictionary_operations.py
+    05.1_2_phonebook_dictionary.py
+    05.1_3_dictionary_looping.py
+    05.2_1_tkinter_window.py
+    05.2_2_tkinter_widgets.py
+    05.2_3_event_handling.py
+    05.2_4_layout_management.py
+    05.3_complete_gui_application.py
 README.md
 ```
 <!--END_TREE-->
