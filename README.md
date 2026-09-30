@@ -35,6 +35,7 @@ and source code from my engineering journey at **Chandigarh University**.
 | --------------------- | -------------------------------------------- |
 | 🧮 DSA in C           | Data structures, algorithms, problem solving |
 | 🐍 Python Programming | Scripts, logic building, automation          |
+| 🗄️ DBMS               | SQL queries, design, data management         |
 
 </div>
 
