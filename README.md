@@ -84,6 +84,8 @@ DSA in C
     02.3_postfix_evaluation_using_stack.c
     02.4.A_queue_using_array.c
     02.4.B_queue_using_linked_list.c
+  UNIT 3
+    03.1_linear_search_using_linked_list.c
 LICENSE
 Python Programming
   UNIT 1
