@@ -87,6 +87,7 @@ DSA in C
   UNIT 3
     03.1_linear_search_using_linked_list.c
     03.2.A_iterative_binary_search_on_sorted_array.c
+    03.2.B_recursive_binary_search_on_sorted_array.c
 LICENSE
 Python Programming
   UNIT 1
